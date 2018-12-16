@@ -10,13 +10,13 @@ namespace addressbook_web_tests
     {
         private string username;
         private string password;
+        
 
         public AccountData(string username, string password)
         {
             this.username = username;
             this.password = password;
         }
-
 
         public string Username
         {
@@ -40,5 +40,6 @@ namespace addressbook_web_tests
                 password = value;
             }
         }
+        
     }
 }
